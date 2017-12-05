@@ -1,0 +1,81 @@
+<!Doctype html>
+
+<html>
+   <head>
+	<body>
+	<title>Type de disque dur - SCSI</title>
+	<meta text charset="utf-8" />
+	<link rel="stylesheet" href="style.css"/>
+	<style type="text/css">
+			h1 {font-size: 30px; font-family: arial; color: yellow}
+			p1 {font-size: 20px; font-family: time new roman; color: orange; text-shadow 0 0 5px red}
+			p2 {font-size: 17px; font-family: time new roman; color: white; text-shadow: 0 0 3px red}
+			p3 {font-size: 17px; font-family: time new roman; color: blue; text-shadow: 0 0 3px white}
+			p4 {font-size: 30px; font-family: time new roman; color: red;}
+			p5 {font-size: 20px; font-family: time new roman; color: black;}
+			p6 {font-size: 20px; font-family: time new roman; color: red;}
+	</style>
+<center><B><h1>Hard Drive Mechanic</h1></B></center>
+<center><img src="Images/Banner.jpg" border="0" width="1010" height="490"></img></center>
+<br></br>
+<center><p1>Bienvenue sur le nouveau site intitulé "Hard Drive Mechanic", ce site nous permet d'apprendre le fonctionnement d'un disque dur interne,
+<br><center>son système de fichiers, son type...</center></br></p1></center>
+<br></br>
+<center><a href="Accueil.html" class="Accueil">Accueil </a>
+<a href="DefHDD.html" class="DefHDD">Qu'est ce qu'un disque dur ?</a>
+<a href="TypHDD.html" class="TypHDD">Type de disque dur </a>
+<a href="FonctHDD.html" class="FonctHDD">Fonctionnement du disque dur </a>
+<a href="SysfichHDD.html" class="SysfichHDD">Système de fichiers du disque dur </a>	
+<a href="PartHDD.html" class="PartHDD">Les partitions</a></center>
+<br></br>
+<br></br>
+
+		<div style="background-color:white">
+		<center><p4><u>SCSI (Small Computer System Interface)</u></p4></center>
+	    <INPUT type="button" value="Retour" onClick="window.history.back()">
+		<p6><b><u><center><br>Définition d'un disque dur SCSI :</br></u></b></p6>
+		<br></br>
+		<p5> L'histoire du SCSI commence en 1965. Le SCSI est une interface qui permet la prise en charge d'un nombre plus important d'unités (par exemple : disques durs). Elle est surtout utilisés pour sa stabilité au niveau du taux de transfert. C'est un adaptateur SCSI (carte adaptatrice sur un emplacement PCI ou ISA) qui se charge de la gestion et du transfert des données. Le processeur central est alors déchargé de toute commande, ce qui lui permet de s'atteler à une autre tâche simultanément. Le processeur ne fait que dialoguer avec la carte SCSI. ainsi chaque contrôleur SCSI a ses propres caractéristiques, le BIOS du PC n'a donc aucune emprise sur l'interface SCSI, car elle possède elle-même son propre BIOS. Il est toutefois possible d'optimiser l'adaptateur en faisant évoluer le bios de la carte SCSI. </p5>
+		<br></br>
+		<p5><b>Voici les principales normes SCSI actuelles avec leur débit :</b></p5>
+		<br></br>
+		<p5> - Ultra Wide SCSI-2 : 40 Mo/s max <br> - Ultra2 Wide SCSI : 80 Mo/s max </br> - Ultra3 SCSI : 160 Mo/s max <br>- Ultra320 SCSI : 320 Mo/s max </br></p5>
+		<br></br>
+		<p5> La différence principale entre l'IDE et le SCSI, est que le SCSI a besoins d'une carte pour fonctionner. On appelle cette carte une carte contrôleur SCSI. Cette carte prend en charge certaines opérations qui sont habituellement traitées par le processeur, ce qui économise les ressources par rapport à l'IDE et permet d'augmenter légèrement les performances des autres applications. D'autre part, le SCSI peut gérer jusqu'à 7 périphériques au lieu de 4 pour l'IDE. Mais il y a d'autres différences: le SCSI ne communique pas par le schéma maître-esclave mais par des numéros différents attribués à chacun des périphériques. Il faut ensuite fermer la chaîne par une "prise", pour indiquer à la carte qu'il n'y a plus de périphérique connecté.</p5>
+		<br></br>
+		<center><p6><b><u>Les avantages d'un disque dur SCSI :</u></b></p6></center>
+		<br></br>
+		<p5>- Contrairement à d’autres interfaces, lorsque vous l’interface avec les différents types de périphériques SCSI, à l’aide de l’interface s’effectue via le même câble. Dans un environnement non-SCSI, les périphériques tels qu’un contrôleur de bande propriétaires, contrôleur de disque et ainsi de suite, est nécessaire pour connecter leurs périphériques respectives pour le bus système.
+		<br>- Les Périphériques SCSI du même type ont des caractéristiques similaires (Cela rend facile de remplacer les anciens périphériques par de nouveaux).
+		</br>
+		- Les périphériques SCSI sont intelligents et indépendants : un contrôleur est intégré à chaque périphérique SCSI. Cela permet à l’ordinateur effectuer d’autres tâches.
+		<br>- E/s de SCSI est indépendant du bus système. Cela permet aux périphériques travailler avec différents types d’ordinateurs, qui préserve les investissements des matériels d’une société.
+		</br>
+		- Le SCSI est rapide (10 Mo/s sur 8 bits bus, 20 Mo/s sur un bus 16 bits).
+		<br>- Les systèmes d'exploitations multi-threads, comme Windows NT, peuvent profiter pleinement des fonctionnalités multitâches du bus SCSI.
+		</br>
+		<br></br>
+		<center><p6><b><u>Les inconvénients d'un disque dur SCSI :</u></b></p6></center>
+		<br></br>
+		<p5> - Son prix est élevée (un disque SCSI de 300 Go peut coûter environ 600€)
+		<br></br>
+		<center><img src="Images/scsi1.jpg" border="0" width="640" height="320"></img>
+		<br><p5>Voici la carte controleur de SCSI</p5></br>
+		<br></br>
+		<center><img src="Images/cablescsi.jpg" border="0" width="500" height="345"></img></center>
+		<br><p5>Voici le câble SCSI</p5></br>
+		<br></br>
+		<center><img src="Images/hdd8.jpg" border="0" width="500" height="345"></img></center>
+		<br><p5>Et enfin le disque dur SCSI avec son port SCSI</p5></br>
+		<br></br>
+
+		
+
+		</div>
+<br></br>
+<center><p2>Hard Drive Mechanic, site sur le fonctionnement des disques durs - Tous droits réservés. Copyright&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p3><a href="mentleg.html">Mentions Légales</a></p3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p3><a href="contact.html">Contactez</a></p3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;         Site Créé par Sébastien BUNEL</p2></center>
+	
+
+	</body>
+	</head>
+</html>

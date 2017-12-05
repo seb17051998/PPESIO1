@@ -1,0 +1,73 @@
+<!Doctype html>
+
+<html>
+   <head>
+	<body>
+	<title>Le fonctionnement du disque dur</title>
+	<meta text charset="utf-8" />
+	<link rel="stylesheet" href="style.css"/>
+	<style type="text/css">
+			h1 {font-size: 30px; font-family: arial; color: yellow}
+			p1 {font-size: 20px; font-family: time new roman; color: orange; text-shadow 0 0 5px red}
+			p2 {font-size: 17px; font-family: time new roman; color: white; text-shadow: 0 0 3px red}
+			p3 {font-size: 17px; font-family: time new roman; color: blue; text-shadow: 0 0 3px white}
+			p4 {font-size: 30px; font-family: time new roman; color: red;}
+			p5 {font-size: 20px; font-family: time new roman; color: black;}
+			p6 {font-size: 20px; font-family: time new roman; color: red;}
+	</style>
+<center><B><h1>Hard Drive Mechanic</h1></B></center>
+<center><img src="Images/Banner.jpg" border="0" width="1010" height="490"></img></center>
+<br></br>
+<center><p1>Bienvenue sur le nouveau site intitulé "Hard Drive Mechanic", ce site nous permet d'apprendre le fonctionnement d'un disque dur interne,
+<br><center>son système de fichiers, son type...</center></br></p1></center>
+<br></br>
+<center><a href="Accueil.html" class="Accueil">Accueil </a>
+<a href="DefHDD.html" class="DefHDD">Qu'est ce qu'un disque dur ?</a>
+<a href="TypHDD.html" class="TypHDD">Type de disque dur </a>
+<a href="FonctHDD.html" class="FonctHDD">Fonctionnement du disque dur </a>
+<a href="SysfichHDD.html" class="SysfichHDD">Système de fichiers du disque dur </a>	
+<a href="PartHDD.html" class="PartHDD">Les partitions</a></center>
+<br></br>
+<br></br>
+
+		<div style="background-color:white">
+		<center><p4><u>Le fonctionnement d'un disque dur</u></p4></center>
+		<br></br>
+		<p5>Le disque dur d'un ordinateur se compose d'un ensemble de plateaux circulaires coaxiaux, recouverts d'une couche de matériau magnétique qui permet l'enregistrement de données. Un disque dur ordinaire comporte un à huit plateaux tournant à plusieurs milliers de tours par minutes, ses têtes de lecture/écriture se déplaçant à la surface des plateaux sur un coussin d'air d'épaisseur comprise entre 0,2 et 0,5 µ. Les plateaux et le mécanisme de lecture sont enfermés dans une coque étanche qui les isole de la poussière ambiante, car la moindre petite particule peut venir détériorer l'état de surface du disque.</p5>
+		<br></br>
+		<center><img src="Images/schema1.jpg" border="0" width="368" height="366"></img></center>
+		<br></br>
+		<center><p6><b><u>Les phases de lecture et écriture</u></b></p6></center>
+		<br></br>
+		<p5>Un ordinateur fonctionne de manière binaire, il faut donc stocker les données sous forme de 0 et de 1. Les têtes de lecture/écriture sont dites "inductives" : elles sont capables de générer un champ magnétique qui soit positif ou négatif permet de polariser la surface du disque en une très petite zone, ce qui se traduira lors du passage en lecture par des changements de polarité induisant un courant dans la tête qui sera ensuite transformer par un convertisseur analogique numérique (CAN) en 0 et en 1 compréhensibles par l'ordinateur.
+Les têtes commencent à inscrire des données à la périphérie du disque (piste 0), puis avancent vers le centre. Les données sont organisées en cercles concentriques appelés pistes.
+		</p5>
+		<br></br>
+		<center><img src="Images/schema2.jpg" border="0" width="368" height="366"></img></center>
+		<br></br>
+		<center><p5>On appelle cylindre l'ensemble des données situées sur une même pistes et sur des plateaux différents : la figure géométrique formée représente un cylindre.<p5></center>
+		<br></br>
+		<center><img src="Images/schema 3.jpg" border="0" width="368" height="366"></img></center>
+		<br></br>
+		<p5>On appelle cluster la zone minimale que peut occuper un fichier sur le disque. En effet le système d'exploitation exploite des blocs qui sont en fait plusieurs secteurs (entre 1 et 16 secteurs). </p5>
+		<br></br>
+		<center><p6><b><u>Le mode 32 bits</u></b></p6></center>
+		<br></br>
+		<p5>Le mode 32 bits (par opposition au mode 16 bits) est caractérisé par un transfert des données sur 32 bits. En mode 16 bits, le transfert des données s'effectue sur 16 bits.
+Le gain de performance relatif au passage du mode 16 bits au mode 32 bits (pour les disques durs) est généralement insignifiant. Quoi qu'il en soit il n'est la plupart du temps plus possible de choisir le mode, car la carte-mère détermine seule le type de mode à adopter en fonction du type de disque dur branché sur l'interface E-IDE.</p5>
+		<br></br>
+		<center><p6><b><u>Caractériser des disques</u></b></p6></center>
+		<br></br>
+		<p5>- Le taux de transfert est la quantité de données qui peuvent être lues ou écrites sur le disque en un temps donné. Il s'exprime aujourd'hui en Méga-Octets par seconde
+		<br>- Le temps de latence (aussi appelé délai rotationnel) représente le temps entre lequel le disque a trouvé la piste et où il trouve les données.
+		</br>
+		- Le temps d'accès est le temps que met la tête pour aller d'une piste à la piste suivante (elle doit être la plus petite possible).
+		<br></br>
+		</div>
+<br></br>
+<center><p2>Hard Drive Mechanic, site sur le fonctionnement des disques durs - Tous droits réservés. Copyright&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p3><a href="mentleg.html">Mentions Légales</a></p3> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <p3><a href="contact.html">Contactez</a></p3>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;         Site Créé par Sébastien BUNEL</p2></center>
+	
+
+	</body>
+	</head>
+</html>
